@@ -4,7 +4,7 @@
   --color-text: #1c2430;
   --color-muted: #5a6474;
   --color-primary: #7A35FF;
-  --color-primary-dark: #FFB7A5;
+  --color-primary-dark: #5a1fd1;
   --color-on-primary: #ffffff;
   --color-border: #dde1e6;
   --color-error: #b3261e;
@@ -27,8 +27,8 @@ body.dark {
   --color-surface: #1a212b;
   --color-text: #e7ebf0;
   --color-muted: #a2abb9;
-  --color-primary: #4fc1c1;
-  --color-primary-dark: #83d8d8;
+  --color-primary: #B794FF;
+  --color-primary-dark: #CDB4FF;
   --color-on-primary: #0b1f1f;
   --color-border: #2b3340;
   --color-error: #ff8a80;

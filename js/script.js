@@ -37,7 +37,7 @@ applyTheme(localStorage.getItem(THEME_KEY));
 
 if (themeToggle) {
   themeToggle.addEventListener("click", () => {
-    const newTheme = document.classList.contains("dark") ? "light" : "dark";
+    const newTheme = document.body.classList.contains("dark") ? "light" : "dark";
     applyTheme(newTheme);
     localStorage.setItem(THEME_KEY, newTheme);
   });
@@ -72,14 +72,24 @@ const projects = [
     category: "js",
     description: "Switches the color thee and remembers the choice.",
   },
-  {
+    {
     title: "Flexbox navigation bar",
     category: "css",
     description: "A header that collapses into amenu button on small screens.",
   },
+  {
+    title: "Git branching practice",
+    category: "git",
+    description: "Created a collaborated repository and committed our changes in the repo. ",
+  },
+  {
+    title: "Team README",
+    category: "readme",
+    description: "A markdown that explains all the changes we have made in the project, and answers all the questions.",
+  },
 ];
 
-const categoryNames = { html: "HTML", css: "CSS", js: "JavaScript" };
+const categoryNames = { html: "HTML", css: "CSS", js: "JavaScript", git: "Git", readme: "README"  };
 
 const projectList = document.querySelector("#project-list");
 const projectCount = document.querySelector("#project-count");

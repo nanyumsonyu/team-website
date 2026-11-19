@@ -9,15 +9,24 @@
 
 ## Who drove each part
 - Part 0, 2, 4: Nancy Muthoni
-- Part 1, 3: Douglas Odira
+- Part 1 and 3:    Douglas Odira
 
 ## Personalisation
-- Our colours: Signal violet for light mode and peach for dark mode
-- Projects we added:
+- Our colours: light mode - signal violet
+               dark mode - lavender
+Light mode:                              
+--color-primary: #7A35FF;
+--color-primary-dark: #5B21B6;
+
+Dark mode: 
+--color-primary: #B794FF;
+--color-primary-dark: #CDB4FF;
+
+
+  **Projects we added:**
+
+
 - Extension challenge(s) completed:
 
 ## Reflection
-1. Improved our web development skills
-2. Understood how html, css and javascript work together to build a web page
-3. Importance of teamwork
-4. Importance of problem solving skills in a project
+1.
